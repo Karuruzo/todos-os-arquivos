@@ -30,51 +30,51 @@ public class calculadora {
                 case "1":
                     System.out.print("primeiro nº:");
                     int a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     int b = menu.nextInt();
                     calculator.soma(a,b);
                     break;
                 case "2":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
                     calculator.subtracao(a,b);
                     break;
                 case "3":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
                     calculator.multiplicacao(a,b);
                     break;
                 case "4":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
                     calculator.divisao(a,b);
                     break;
                 case "5":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
                     calculator.raiz(a,b);
                     break;
                 case "6":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
-                    System.out.println("terceiro nº:");
+                    System.out.print("terceiro nº:");
                     int c = menu.nextInt();
                     calculator.bhaskara(a,b,c);
                     break;
                 case "7":
                     System.out.print("primeiro nº:");
                     a = menu.nextInt();
-                    System.out.println("segundo nº:");
+                    System.out.print("segundo nº:");
                     b = menu.nextInt();
                     calculator.potencia(a,b);
                     break;
