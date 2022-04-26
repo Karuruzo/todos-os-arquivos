@@ -23,23 +23,17 @@ public class calculadora2 {
     public void bhaskara (double A, double B, double C){
         //TODO FUNÇÃO BHASKARA
         double delta, x1,x2;
-
         delta=(Math.pow(B,2))-(4*A*C);
         x1=(-B+(Math.sqrt(delta)))/(2*A);
         x2=(-B-(Math.sqrt(delta)))/(2*A);
-
         if (delta <=0){
             System.out.println("delta menor que zero");
             System.out.println(delta);
-
-
         }
         else{
             System.out.println("x1="+(x1));
             System.out.println("x2="+(x2));
         }
-
-
     }
     public void raiz (double radicando, double indice){
         //TODO FUNÇÃO RAIZ
@@ -51,7 +45,6 @@ public class calculadora2 {
         ANS=Math.pow(base, expoente);
         System.out.println("potencia="+(Math.pow(base, expoente)));
     }
-
     public double getANS() {
         return ANS;
     }
